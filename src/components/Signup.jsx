@@ -1,8 +1,8 @@
-import React from 'react'
+import React,{useState} from "react";
 
 
 
-
+             
 export const Signup = () => {
 
     const [name, setName] = useState('');

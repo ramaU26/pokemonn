@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import { AddProducts } from './components/AddProducts';
 import { Home } from './components/Home.jsx'
 import { ProductsContextProvider } from './global/ProductsContext';
-import { Signup } from './components/Signup.jsx';
+import { Signup } from './components/Signup';
 import { Login } from './components/Login';
 
 export class App extends Component{
@@ -14,8 +14,8 @@ export class App extends Component{
         <Routes>
           <Route path='/' element={<Home />} />
           <Route path='/addproducts' element={<AddProducts />} />
-          <Route path='/signup' Component={<Signup/>} />
-          <Route path='/login' Component={<Login/>} />
+          <Route path='/signup' element={<Signup/>} />
+          <Route path='/login' element={<Login/>} />
         </Routes>
       </Router>
       </ProductsContextProvider>

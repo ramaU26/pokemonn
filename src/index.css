@@ -229,11 +229,7 @@ h1 {
 .cart-container .cart-card .cart-price-orignal {
     width: 150px;
     margin-left: 20px;
-<<<<<<< HEAD
     color: #0c0704;
-=======
-    color: #f57224;
->>>>>>> f1572431809335bf0fbe4b06ce3d12986e9b40df
 }
 
 @media(max-width: 768px) {
@@ -280,11 +276,7 @@ h1 {
 }
 
 .cart-summary .cart-summary-heading {
-<<<<<<< HEAD
     border-bottom: 1px solid #0e0906;
-=======
-    border-bottom: 1px solid #f57224;
->>>>>>> f1572431809335bf0fbe4b06ce3d12986e9b40df
 }
 
 .cart-summary .cart-summary-price {
@@ -299,7 +291,6 @@ h1 {
     text-decoration: none;
     color: #000;
 }
-<<<<<<< HEAD
 
 /* cashout */
 .success-msg {
@@ -313,5 +304,3 @@ h1 {
 .success-msg .home-link {
     color: #fff;
 }
-=======
->>>>>>> f1572431809335bf0fbe4b06ce3d12986e9b40df
